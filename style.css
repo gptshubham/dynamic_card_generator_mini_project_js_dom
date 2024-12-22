@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+
+.container {
+  margin: 10px;
+  color: rgb(3, 255, 3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card {
+  width: 70px;
+  height: 80px;
+  background-color: hotpink;
+  color: rgb(255, 2, 129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 36px;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.add-card {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: rgb(0, 255, 0);
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+}
+
+p {
+  margin-top: -5px;
+}
